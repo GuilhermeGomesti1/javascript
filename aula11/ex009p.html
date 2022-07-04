@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nacionalidade</title>
+</head>
+<body>
+    <h1>Em qual país você mora?</h1>
+Moro em <input type="text" name="pais" id="pais">
+<input type="button" value="Verificar" onclick="analisar()">
+<div id="res">
+
+</div>
+
+<script>
+    function analisar() {
+        var txp = window.document.querySelector('input#pais')
+        var res = wndow.document.querySelector('div#res')
+        var pai  = (pai.value)
+        res.innerHTML = (`<p>vocÊ mora no ${pai}!</p>`) if (pai != brasil) { res.innerHTML += `<p>você é <strong>estrangeiro</strong> por não morar no Brasil</p>`} 
+    res.innerHTML += `<p>Seja bem vindo</p>`
+
+
+
+
+    }
+</script>
+
+    
+</body>
+</html>
